@@ -3,7 +3,7 @@ echo "Cloning dependencies"
 git clone --depth=1 -b lightlosreb2 https://github.com/Abungo/LightningKernel_Xiaomi_msm8953 kernel
 cd kernel
 git clone --depth=1 -b master https://github.com/kdrag0n/proton-clang clang
-git clone https://github.com/prorooter007/AnyKernel3 -b tissot --depth=1 AnyKernel
+git clone https://github.com/Abungo/AnyKernel3 -b tissot --depth=1 AnyKernel
 echo "Done"
 KERNEL_DIR=$(pwd)
 REPACK_DIR="${KERNEL_DIR}/AnyKernel"
